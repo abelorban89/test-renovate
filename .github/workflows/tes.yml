@@ -5,8 +5,8 @@ on:
     branches-ignore:
       - main
   pull_request:
-    branches-ignore:
-      - main
+    types:
+      - opened
 
 jobs:
   build_and_test:
